@@ -8,7 +8,7 @@
       <Search v-on:query-change="buscador" />
     </div>
     <div id="main-container">
-      <h2>Todos</h2>
+      <h2>TODOS</h2>
       <TodoAdd v-on:add-todo="addTodo" />
       <TodosDatos v-bind:todosList="copyTodos" v-on:delete-todo="deleteTodo" />
     </div>
